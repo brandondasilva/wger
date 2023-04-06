@@ -24,7 +24,7 @@ services:
       #  source: /path/to/wger/sourcecode
       #  target: /home/wger/src/
     ports:
-      - "8000"
+      - "8777"
     healthcheck:
       test: wget --no-verbose --tries=1 --spider http://localhost:8000
       interval: 10s
